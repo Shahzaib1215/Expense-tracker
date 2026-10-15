@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme for the Activity; Jetpack Compose draws the actual UI. -->
+    <style name="Theme.KharchaTracker" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+</resources>
