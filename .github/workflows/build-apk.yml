@@ -28,6 +28,7 @@ jobs:
         run: |
           for f in $(find app/src/main/res -name "*.png.b64"); do
             base64 -d "$f" > "${f%.b64}"
+            rm "$f"
           done
           ls app/src/main/res/mipmap-xxxhdpi/
 
